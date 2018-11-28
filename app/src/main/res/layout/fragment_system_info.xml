@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txt_internet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="70dp"
+        android:background="@color/colorBack"
+        android:padding="10dp"
+        android:text="System Info about Internet"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/txt_buttery_level"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="70dp"
+        android:background="@color/colorBack"
+        android:padding="10dp"
+        android:text="System Info about buttery"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/txt_head_phenes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="70dp"
+        android:background="@color/colorBack"
+        android:padding="10dp"
+        android:text="System Info about head phones"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/txt_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="70dp"
+        android:background="@color/colorBack"
+        android:padding="10dp"
+        android:text="System Info about date"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/txt_time_zone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="70dp"
+        android:background="@color/colorBack"
+        android:padding="10dp"
+        android:text="System Info about time zone"
+        android:textAllCaps="false" />
+
+
+</LinearLayout>
